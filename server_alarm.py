@@ -13,7 +13,7 @@ WAIT_FOR_KNOCK_TIME = 10        # Time to wait KNOCK before reporting about link
                                 # This time should be at least 2 times greater, than
                                 # KNOCK_DELAY in alarm_client.py
 
-DIR_NAME = '/data/data/com.termux/files/home/alarm/' # Dirrectory, where sound files are
+DIR_NAME = './alarm/' # Dirrectory, where sound files are
 ALARM_FILE_NAME = 'alarm_short.mp3'
 LINK_LOSS_FILE_NAME = 'link_loss.mp3'
 LINK_RESTORE_FILE_NAME = 'link_restored.mp3'
