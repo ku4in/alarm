@@ -59,3 +59,4 @@ def nat_traversal():
     print(f"Connection established with {rip}:{rport}")
     sock.settimeout(None)
     return rip, rport, sock
+# happy end!
